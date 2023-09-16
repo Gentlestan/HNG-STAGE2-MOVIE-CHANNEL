@@ -3,6 +3,7 @@ import Card from "./Card"
 import bgImp from "../images/tv.png"
 import bgImp1 from "../images/menu4.png"
 import desc from "../images/Description-Box.png"
+import footer from "../images/Footer.png"
 
 export default function Home(){
     const [top10Movies, setTop10Movies] = React.useState([])
@@ -66,7 +67,7 @@ export default function Home(){
           
         ))}
         </div>
-        <div className="container-social"> <img className="social" src="./images/Footer.png"/></div>
+        <div className="container-social"> <img className="social" src={footer}/></div>
         </div>  
         </div>
     )
