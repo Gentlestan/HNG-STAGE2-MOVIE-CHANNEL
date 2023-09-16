@@ -54,7 +54,7 @@ export default function Home(){
         </div>
         <div>
             <h1>Featured movie</h1>
-            <div data-testid= "movie-card">
+            <div data-testid= "movie-poster-info">
             {top10Movies.map((movie) => (
             <Card
             key={movie.id}
