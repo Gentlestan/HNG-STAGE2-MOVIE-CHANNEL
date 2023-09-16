@@ -29,7 +29,7 @@ export default function Home(){
         <div className="hero">
         <div className="hero-container">
         <div className="moviebox-container">
-            <img src="./images/tv.png"/>
+            <img src="../images/pages/tv.png"/>
             <h1 className="hero-moviebox-text">MovieBox</h1>
         </div>
         <div className="search-container">
