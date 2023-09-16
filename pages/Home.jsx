@@ -1,5 +1,6 @@
 import React from "react"
 import Card from "./Card"
+import bgImp from "../images/tv.png"
 
 export default function Home(){
     const [top10Movies, setTop10Movies] = React.useState([])
@@ -29,7 +30,7 @@ export default function Home(){
         <div className="hero">
         <div className="hero-container">
         <div className="moviebox-container">
-            <img src="../images/pages/tv.png"/>
+            <img src={bgImp}/>
             <h1 className="hero-moviebox-text">MovieBox</h1>
         </div>
         <div className="search-container">
