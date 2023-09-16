@@ -5,6 +5,8 @@ import { useParams, Link } from "react-router-dom";
 import group21 from "../images/Group-21.png"
 import frame from "../images/Frame-3.png"
 import star from "../images/Star.png"
+import group50 from "../images/Group-50.png"
+import group51 from  "../images/Group-51.png"
 
 
 export default function MovieDetails() {
@@ -104,8 +106,8 @@ export default function MovieDetails() {
         <div className="overview">
         {movieDetails.overview}
         <div >
-         <img src="../images/Group-50.png" />
-          <img src="../images/Group-51.png" />
+         <img src={group50} />
+          <img src={group51} />
         </div>
         </div>
         {/* You can display other movie details here */}
