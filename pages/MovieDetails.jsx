@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
+import group21 from "../images/Group-21.png"
 
 
 export default function MovieDetails() {
@@ -78,7 +79,7 @@ export default function MovieDetails() {
     <div className="movidetails-container">
         <div className="movie-nav-container">
             <div className="nav-img">
-                <img src="../images/Group-21.png"/>
+                <img src={group21}/>
             </div>
         </div>
       <div>
