@@ -3,6 +3,8 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import group21 from "../images/Group-21.png"
+import frame from "../images/Frame-3.png"
+import star from "../images/Star.png"
 
 
 export default function MovieDetails() {
@@ -89,14 +91,14 @@ export default function MovieDetails() {
           src={`https://image.tmdb.org/t/p/w500${movieDetails.backdrop_path}`}
           alt="Movie Poster"
         />
-        <img className="img-frame" src="../images/Frame-3.png"/>
+        <img className={frame}/>
         </div>
         
         <div className="title-cont">
         <p data-testid="movie-title"> {movieDetails.title}</p>
         <p data-testid="movie-release-date">{movieDetails.release_date}</p>
         <p className="runtime-txt" >Runtime: {movieDetails.runtime} minutes</p>
-        <img src="../images/Star.png" />
+        <img src={star} />
         <p>{movieDetails.vote_average} | {movieDetails.vote_count} votes</p>
         </div>
         <div className="overview">
