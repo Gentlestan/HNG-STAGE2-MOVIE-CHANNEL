@@ -2,6 +2,7 @@ import React from "react"
 import Card from "./Card"
 import bgImp from "../images/tv.png"
 import bgImp1 from "../images/menu4.png"
+import desc from "../images/Description-Box.png"
 
 export default function Home(){
     const [top10Movies, setTop10Movies] = React.useState([])
@@ -47,7 +48,7 @@ export default function Home(){
             </div>
         </div>
         <div className="desc-box">
-        <img src="./images/Description-Box.png"/>
+        <img src={desc}/>
         </div>
         </div>
         <div>
