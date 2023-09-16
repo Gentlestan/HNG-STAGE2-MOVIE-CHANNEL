@@ -93,7 +93,7 @@ export default function MovieDetails() {
           src={`https://image.tmdb.org/t/p/w500${movieDetails.backdrop_path}`}
           alt="Movie Poster"
         />
-        <img className={frame}/>
+        <img className="img-frame" src={frame}/>
         </div>
         
         <div className="title-cont">
