@@ -73,7 +73,7 @@ html, body {
     padding-left: 1rem;
     margin-top: 1.5rem;
 }
-[data-testid= movie-card] {
+[data-testid= movie-poster-info] {
     width: 100vw;
     display: grid;
    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
