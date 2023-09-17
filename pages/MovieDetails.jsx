@@ -105,7 +105,7 @@ export default function MovieDetails() {
         </div>
         <div className="overview">
         {movieDetails.overview}
-        <div >
+        <div className="group-50-51" >
          <img src={group50} />
           <img src={group51} />
         </div>
