@@ -173,6 +173,42 @@ html, body {
   text-decoration: none;
   color: gray; /* Change the color to your preference */
 }
+@media (max-width: 750px) {
+    .hero-moviebox-text{
+        display: none;
+    }
+    .search-container,
+    .moviebox-container,
+    .sign-in-img{
+        margin-top: 1rem;
+    }
+    .featured-movie{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    [data-testid= movie-title]{
+        font-size: 0.8rem;
+    
+}
+[data-testid= movie-release-date]{
+   font-size: 0.8rem;  
+}
+.social{
+    width: 60%;
+}
+.overview{
+    display:flex;
+    flex-direction: column;
+    
+}
+.group-50-51{
+    margin-top: 1rem;
+    width: 100px;
+    
+}
+   
+}
 
 
 
